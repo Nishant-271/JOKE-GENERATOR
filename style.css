@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:"Rubik",sans-serif;
+}
+
+.body{
+    background-color:#f9ca24;
+}
+
+.wrapper{
+    width:80vmin;
+    padding:50px 40px;
+ background-color: black;
+
+    /*to set the element across x and y axis 
+translate(tx) - Moves the element horizontally by tx pixels.
+translate(tx, ty) - Moves the element horizontally by tx pixels 
+and vertically by ty  */
+position:absolute;
+transform :translate(-50%,-50%);
+top:50%;
+left:50%;
+box-shadow:20px 20px 40px rgba(97,63,0,0.4);
+}
+
+span{
+    display:block;
+    text-align: center;
+    font-size: 80px;
+    width:100%;
+    border-radius:6px;
+    border-color:white;
+    border-width: 50px;
+}
+
+.gif{
+    border-radius: 44%; /* This will make the border rounded */
+    height: 200px; /* Set desired height */
+    width: 200px; /* Set desired width */
+    object-fit: cover;
+}
+
+
+p{
+    font-size:20px;
+    color:white;
+    text-align: center;
+    /*  The word-wrap property in CSS is used to specify whether or not 
+    long words can be broken and wrapped onto the next line within an element
+     if they extend beyond its boundaries.  */
+  word-wrap: break-word;
+  line-height: 35px;
+  margin:30px 0px;
+opacity: 0; 
+font-weight: bold;
+}
+.fade{
+    opacity:1;
+    transition: opacity 1.5s;
+
+}
+
+#search{
+    display:block;
+    background-color:#f9ca24;
+    color:black;
+    font-weight: 600;
+   border:none;
+   padding:10px;
+   font-size:18px;
+   border-radius:6px;
+   padding:12px 25px;
+   margin: 0 auto;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
